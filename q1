@@ -1,0 +1,13 @@
+m=int(input("enter your marks"))
+if m<25:
+     print("Grade is F")
+elif 25<=m<45:
+     print("Grade is E")
+elif 45<=m<50:
+     print("Grade is D")
+elif 50<=m<60:
+     print("Grade is C")
+elif 60<=m<80:
+     print("Grade is B")
+else:
+     print("Grade is A")
